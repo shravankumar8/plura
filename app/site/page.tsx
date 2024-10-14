@@ -1,8 +1,8 @@
 
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import { SignedOut, SignOutButton } from "@clerk/nextjs";
+
 import Image from "next/image";
-import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
+
 export default function Home() {
   return (
     <>
