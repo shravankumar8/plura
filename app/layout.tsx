@@ -4,6 +4,7 @@ import "./globals.css";
 import { ClerkProvider } from '@clerk/nextjs'
 import {dark} from '@clerk/themes'
 import { ThemeProvider } from "@/providers/theme-provider";
+import MouseTracker from "@/components/global/mouseTracker";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -38,6 +39,7 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
+
           </ThemeProvider>
         </body>
       </html>
